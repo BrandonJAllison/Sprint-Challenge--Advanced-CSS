@@ -172,7 +172,7 @@ p {
 .navigation-bar a {
   text-decoration: none;
   color: #454A59;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   padding: 0 1.2rem;
 }
 .navigation-bar h1 {
@@ -205,6 +205,9 @@ footer {
 }
 @media (max-width: 500px) {
   .home .space-images .sky {
+    display: none;
+  }
+  .home .space-images .launch {
     display: none;
   }
 }
