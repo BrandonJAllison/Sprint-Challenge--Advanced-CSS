@@ -333,14 +333,18 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .blog .img-holder {
+    margin: 4%;
+  }
+}
 .blog .img-holder img {
   border-radius: 10px;
 }
 @media (max-width: 500px) {
   .blog .img-holder img {
     width: 100%;
-    margin: 4%;
-    padding: 4%;
     height: 50%;
+    border-radius: 10px;
   }
 }

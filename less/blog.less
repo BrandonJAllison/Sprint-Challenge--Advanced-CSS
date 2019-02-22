@@ -26,16 +26,23 @@
     .img-holder{
         display: flex;
         justify-content: center;
+
+        @media @phone{
+            margin: 4%;
+        }
         
 
         img {
             border-radius: 10px;
             
+
             @media @phone{
+
                 width: 100%;
-                margin: 4%;
-                padding: 4%;
+                
+                
                 height: 50%;
+                border-radius: 10px;
             }
         }
     }
