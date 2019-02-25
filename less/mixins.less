@@ -1,1 +1,38 @@
 // Mixins Here
+
+.btn-style(@bgcolor:green, @color:white, @width:100%) {
+    text-align: center;
+    height: auto;
+    padding: 1.3rem;
+    background:@bgcolor;
+    color:@color;
+    width:@width;
+    border-radius: 10px;
+    font-size: 2rem;
+
+    &:hover{
+        box-sizing:border-box;
+        background:@color;
+        color:@bgcolor;
+        border: 1px solid @bgcolor;
+        
+    }
+
+  }
+
+  .nav-link-style(){
+      
+      text-decoration: none;
+      color:@river-bend;
+      font-size: 1.3rem;
+      padding: 0 1.2rem;
+      margin: 0 5px;
+
+      @media @phone{
+        padding: 0 1rem;
+    
+    }
+
+     
+      
+  }
